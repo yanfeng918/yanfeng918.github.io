@@ -18,4 +18,4 @@
 3. 选择 `Deploy from a branch`，分支选择 `main`，目录选择 `/ (root)`。
 4. 保存后等待 GitHub 自动发布。
 
-以后修改 `index.html` 并提交到 `main` 分支，网页会自动更新。
+以后修改 `index.html` 并提交到 `main` 分支，网页会自动更新。yanfeng
