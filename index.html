@@ -251,12 +251,12 @@
     }
 
     .tag-list li {
-      padding: 7px 12px;
+      padding: 8px 14px;
       border: 1px solid var(--line);
       border-radius: 999px;
       color: var(--primary);
       background: color-mix(in srgb, var(--surface) 92%, var(--primary) 8%);
-      font-size: .84rem;
+      font-size: 1.02rem;
       font-weight: 700;
     }
 
@@ -331,8 +331,8 @@
       backdrop-filter: blur(14px);
     }
 
-    .motto-card strong { display: block; color: var(--primary); font-size: .88rem; }
-    .motto-card span { display: block; margin-top: 3px; color: var(--text-soft); font-size: .74rem; line-height: 1.45; }
+    .motto-card strong { display: block; color: var(--primary); font-size: 1.12rem; }
+    .motto-card span { display: block; margin-top: 4px; color: var(--text-soft); font-size: .95rem; line-height: 1.45; }
 
     .stats {
       display: grid;
@@ -358,7 +358,7 @@
 
     .section-heading {
       display: grid;
-      grid-template-columns: 210px minmax(0, 1fr);
+      grid-template-columns: 360px minmax(0, 1fr);
       gap: 38px;
       align-items: start;
       margin-bottom: 34px;
@@ -376,6 +376,7 @@
       margin: 6px 0 0;
       font-size: clamp(1.85rem, 4vw, 2.75rem);
       letter-spacing: -.025em;
+      white-space: nowrap;
     }
 
     .section-intro {
@@ -384,7 +385,7 @@
       max-width: 780px;
     }
 
-    .content-offset { margin-left: 248px; }
+    .content-offset { margin-left: 398px; }
 
     .prose {
       color: var(--text-soft);
@@ -395,7 +396,7 @@
 
     .alpha-box {
       display: grid;
-      grid-template-columns: 86px 1fr;
+      grid-template-columns: 148px 1fr;
       gap: 22px;
       align-items: center;
       margin-top: 25px;
@@ -407,16 +408,10 @@
     }
 
     .alpha-logo {
-      display: grid;
-      place-items: center;
-      width: 76px;
-      height: 76px;
-      border-radius: 20px;
-      color: #fff;
-      background: linear-gradient(145deg, #123c69, #2873a7);
-      font-size: 1.5rem;
-      font-weight: 900;
-      letter-spacing: .04em;
+      display: block;
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
     }
 
     .alpha-box h3 { margin: 0; font-size: 1.18rem; }
@@ -717,7 +712,7 @@
       .two-column,
       .criteria { grid-template-columns: 1fr; }
       .alpha-box { grid-template-columns: 1fr; }
-      .alpha-logo { width: 64px; height: 64px; border-radius: 16px; }
+      .alpha-logo { width: 96px; height: 96px; }
       .group-heading { padding: 17px 18px; }
       .project-list,
       .publication-list { padding: 0 18px 20px 38px; }
@@ -863,7 +858,7 @@
           </p>
 
           <div class="alpha-box">
-            <div class="alpha-logo" aria-hidden="true">α</div>
+            <img class="alpha-logo" src="assets/logo.png" alt="ALPHA Group logo">
             <div>
               <h3>新疆大学阿尔法小组（ALPHA Group）</h3>
               <p>
