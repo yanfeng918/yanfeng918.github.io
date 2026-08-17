@@ -358,8 +358,8 @@
 
     .section-heading {
       display: grid;
-      grid-template-columns: 360px minmax(0, 1fr);
-      gap: 38px;
+      grid-template-columns: max-content minmax(0, 1fr);
+      gap: 28px 32px;
       align-items: start;
       margin-bottom: 34px;
     }
@@ -385,7 +385,7 @@
       max-width: 780px;
     }
 
-    .content-offset { margin-left: 398px; }
+    .content-offset { margin-left: 0; }
 
     .prose {
       color: var(--text-soft);
@@ -842,30 +842,29 @@
             <span class="section-index">01 / Profile</span>
             <h2>个人简介</h2>
           </div>
-          <p class="section-intro">
-            聚焦人工智能、金融与能源时间序列、多模态信息处理，开展理论研究、工程实践与研究生培养。
-          </p>
-        </div>
+          <div class="prose">
+            <p class="section-intro">
+              聚焦人工智能、金融与能源时间序列、多模态信息处理，开展理论研究、工程实践与研究生培养。
+            </p>
+            <p>
+              <strong>颜丰，博士，副教授，硕士研究生导师。</strong>2023 年 10 月加入新疆大学，
+              从事教学与科研工作，入选新疆大学高层次优秀青年 A 类博士引进人才。
+            </p>
+            <p>
+              长期从事金融时间序列分析、多模态信息处理、机器学习与深度学习等方向的研究，
+              重点关注人工智能方法在金融市场预测、新能源功率预测等领域的应用。
+            </p>
 
-        <div class="content-offset prose">
-          <p>
-            <strong>颜丰，博士，副教授，硕士研究生导师。</strong>2023 年 10 月加入新疆大学，
-            从事教学与科研工作，入选新疆大学高层次优秀青年 A 类博士引进人才。
-          </p>
-          <p>
-            长期从事金融时间序列分析、多模态信息处理、机器学习与深度学习等方向的研究，
-            重点关注人工智能方法在金融市场预测、新能源功率预测等领域的应用。
-          </p>
-
-          <div class="alpha-box">
-            <img class="alpha-logo" src="assets/logo.png" alt="ALPHA Group logo">
-            <div>
-              <h3>新疆大学阿尔法小组（ALPHA Group）</h3>
-              <p>
-                ALPHA 取自 <strong>Adaptive Long-horizon Prediction with Hybrid AI</strong>，
-                主要开展自适应长时序预测与融合人工智能研究。研究方向聚焦金融与能源数据的时间序列建模，
-                重点关注棉花期货价格预测、新能源发电功率预测、多源时序信息融合以及智能预测模型等领域。
-              </p>
+            <div class="alpha-box">
+              <img class="alpha-logo" src="assets/logo.png" alt="ALPHA Group logo">
+              <div>
+                <h3>新疆大学阿尔法小组（ALPHA Group）</h3>
+                <p>
+                  ALPHA 取自 <strong>Adaptive Long-horizon Prediction with Hybrid AI</strong>，
+                  主要开展自适应长时序预测与融合人工智能研究。研究方向聚焦金融与能源数据的时间序列建模，
+                  重点关注棉花期货价格预测、新能源发电功率预测、多源时序信息融合以及智能预测模型等领域。
+                </p>
+              </div>
             </div>
           </div>
         </div>
